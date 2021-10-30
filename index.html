@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Profile Generator</title>
+    <link rel="stylesheet" href="style.css" >
+<body>
+    <!--`v-cloak` directive will remain on the element until the associated Vue instance finishes compilation.-->
+    <div id="app" >
+        <img :class="profileGender" v-bind:src="profilePicture" :alt="`${firstName} ${lastName}`" v-cloak>
+        <h1 v-cloak>{{firstName}} {{lastName}}</h1> 
+        <h3 v-cloak>Email: {{profileEmail}}</h3>
+        <button :class="profileGender" v-on:click="getUser()">Get Random User</button>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+</body>
+</html>
