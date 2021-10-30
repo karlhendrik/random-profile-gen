@@ -1,4 +1,4 @@
-![Example](https://i.gyazo.com/1597d9f4ae4d1c5fbae5ffdf13964eee.mp4)
+![Example](https://media.githubusercontent.com/media/karlhendrik/random-profile-gen/main/images/random-profile-gen.gif)
 
 ## Random Profile Generator
 
