@@ -2,5 +2,4 @@
 
 ## Random Profile Generator
 
-Yet another simple VueJS mini project using CDN to generate random profiles
-
+Yet another simple VueJS mini project using CDN.
